@@ -9,7 +9,7 @@ public class IntakeSubsystem extends SubsystemBase {
     private final WPI_TalonFX intakeMotor;
 
     public IntakeSubsystem() {
-        intakeMotor = new WPI_TalonFX(IntakeConstants.INTAKE_MOTOR_PORT);
+        intakeMotor = new WPI_TalonFX(IntakeConstants.INTAKE_ID);
         intakeMotor.setInverted(true);
     }
 
